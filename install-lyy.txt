@@ -1,0 +1,509 @@
+/usr/bin/cmake -H/userdata/work/pytorch -B/userdata/work/pytorch/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /userdata/work/pytorch/build/CMakeFiles /userdata/work/pytorch/build/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/depend
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/protobuf/cmake /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/protobuf/cmake /userdata/work/pytorch/build/third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/protobuf/cmake /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/protobuf/cmake /userdata/work/pytorch/build/third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/DependInfo.cmake --color=
+[  1%] Built target libprotobuf-lite
+/usr/bin/make -f confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/build.make confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/cpuinfo/deps/clog /userdata/work/pytorch/build /userdata/work/pytorch/build/confu-deps/cpuinfo/deps/clog /userdata/work/pytorch/build/confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/build.make confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'confu-deps/cpuinfo/deps/clog/CMakeFiles/clog.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/protobuf/cmake/CMakeFiles/libprotobuf.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[  2%] Built target clog
+/usr/bin/make -f confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/build.make confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/pthreadpool /userdata/work/pytorch/build /userdata/work/pytorch/build/confu-deps/pthreadpool /userdata/work/pytorch/build/confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/DependInfo.cmake --color=
+[  7%] Built target libprotobuf
+/usr/bin/make -f c10/CMakeFiles/c10.dir/build.make c10/CMakeFiles/c10.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/c10 /userdata/work/pytorch/build /userdata/work/pytorch/build/c10 /userdata/work/pytorch/build/c10/CMakeFiles/c10.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/build.make confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'confu-deps/pthreadpool/CMakeFiles/pthreadpool.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[  7%] Built target pthreadpool
+/usr/bin/make -f caffe2/CMakeFiles/python_copy_files.dir/build.make caffe2/CMakeFiles/python_copy_files.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/python_copy_files.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f c10/CMakeFiles/c10.dir/build.make c10/CMakeFiles/c10.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'c10/CMakeFiles/c10.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/python_copy_files.dir/build.make caffe2/CMakeFiles/python_copy_files.dir/build
+[  9%] Built target c10
+/usr/bin/make -f third_party/foxi/CMakeFiles/foxi_loader.dir/build.make third_party/foxi/CMakeFiles/foxi_loader.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/foxi /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/foxi /userdata/work/pytorch/build/third_party/foxi/CMakeFiles/foxi_loader.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/python_copy_files.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/foxi/CMakeFiles/foxi_loader.dir/build.make third_party/foxi/CMakeFiles/foxi_loader.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/foxi/CMakeFiles/foxi_loader.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target python_copy_files
+/usr/bin/make -f caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/build.make caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/depend
+[ 43%] Built target foxi_loader
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/DependInfo.cmake --color=
+/usr/bin/make -f sleef/src/common/CMakeFiles/common.dir/build.make sleef/src/common/CMakeFiles/common.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/common /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/common /userdata/work/pytorch/build/sleef/src/common/CMakeFiles/common.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/build.make caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/common/CMakeFiles/common.dir/build.make sleef/src/common/CMakeFiles/common.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/common/CMakeFiles/common.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/ATEN_CPU_FILES_GEN_TARGET.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target common
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkrename.dir/build.make sleef/src/libm/CMakeFiles/mkrename.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/mkrename.dir/DependInfo.cmake --color=
+[ 43%] Built target ATEN_CPU_FILES_GEN_TARGET
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkalias.dir/build.make sleef/src/libm/CMakeFiles/mkalias.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/mkalias.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkalias.dir/build.make sleef/src/libm/CMakeFiles/mkalias.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/mkalias.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkrename.dir/build.make sleef/src/libm/CMakeFiles/mkrename.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/mkrename.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target mkalias
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/build.make sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/depend
+[ 43%] Built target mkrename
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/DependInfo.cmake --color=
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/build.make sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/build.make sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/build.make sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/mkrename_gnuabi.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/mkmasked_gnuabi.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target mkrename_gnuabi
+[ 43%] Built target mkmasked_gnuabi
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkdisp.dir/build.make sleef/src/libm/CMakeFiles/mkdisp.dir/depend
+/usr/bin/make -f sleef/src/common/CMakeFiles/arraymap.dir/build.make sleef/src/common/CMakeFiles/arraymap.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/common /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/common /userdata/work/pytorch/build/sleef/src/common/CMakeFiles/arraymap.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/mkdisp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/common/CMakeFiles/arraymap.dir/build.make sleef/src/common/CMakeFiles/arraymap.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/mkdisp.dir/build.make sleef/src/libm/CMakeFiles/mkdisp.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/common/CMakeFiles/arraymap.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/mkdisp.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target mkdisp
+/usr/bin/make -f caffe2/CMakeFiles/generate-torch-sources.dir/build.make caffe2/CMakeFiles/generate-torch-sources.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/generate-torch-sources.dir/DependInfo.cmake --color=
+[ 43%] Built target arraymap
+/usr/bin/make -f caffe2/torch/CMakeFiles/torch_python_stubs.dir/build.make caffe2/torch/CMakeFiles/torch_python_stubs.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/torch /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2/torch /userdata/work/pytorch/build/caffe2/torch/CMakeFiles/torch_python_stubs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/generate-torch-sources.dir/build.make caffe2/CMakeFiles/generate-torch-sources.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/generate-torch-sources.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/torch/CMakeFiles/torch_python_stubs.dir/build.make caffe2/torch/CMakeFiles/torch_python_stubs.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/torch/CMakeFiles/torch_python_stubs.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target generate-torch-sources
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/depend
+[ 43%] Built target torch_python_stubs
+/usr/bin/make -f confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/build.make confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/cpuinfo /userdata/work/pytorch/build /userdata/work/pytorch/build/confu-deps/cpuinfo /userdata/work/pytorch/build/confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/build.make confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/protobuf/cmake /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/protobuf/cmake /userdata/work/pytorch/build/third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'confu-deps/cpuinfo/CMakeFiles/cpuinfo_internals.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 43%] Built target cpuinfo_internals
+/usr/bin/make -f confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/build.make confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/depend
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/build.make third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/cpuinfo /userdata/work/pytorch/build /userdata/work/pytorch/build/confu-deps/cpuinfo /userdata/work/pytorch/build/confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/build.make confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/protobuf/cmake/CMakeFiles/libprotoc.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'confu-deps/cpuinfo/CMakeFiles/cpuinfo.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 48%] Built target libprotoc
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/DependInfo.cmake --color=
+[ 50%] Built target cpuinfo
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/renamePURECFMA_SCALAR.h_generated.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/renamePUREC_SCALAR.h_generated.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 50%] Built target renamePUREC_SCALAR.h_generated
+/usr/bin/make -f sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/build.make sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/DependInfo.cmake --color=
+[ 50%] Built target renamePURECFMA_SCALAR.h_generated
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/build.make sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/alias_advsimd.h_generated.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/renameADVSIMD.h_generated.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 51%] Built target alias_advsimd.h_generated
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/depend
+[ 52%] Built target renameADVSIMD.h_generated
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/DependInfo.cmake --color=
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/build.make sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/renameADVSIMDNOFMA.h_generated.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefdetpurec_scalar.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 52%] Built target renameADVSIMDNOFMA.h_generated
+/usr/bin/make -f sleef/src/libm/CMakeFiles/headers.dir/build.make sleef/src/libm/CMakeFiles/headers.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/headers.dir/DependInfo.cmake --color=
+[ 52%] Built target sleefdetpurec_scalar
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/protoc.dir/build.make third_party/protobuf/cmake/CMakeFiles/protoc.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/protobuf/cmake /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/protobuf/cmake /userdata/work/pytorch/build/third_party/protobuf/cmake/CMakeFiles/protoc.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/headers.dir/build.make sleef/src/libm/CMakeFiles/headers.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/headers.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/protobuf/cmake/CMakeFiles/protoc.dir/build.make third_party/protobuf/cmake/CMakeFiles/protoc.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/protobuf/cmake/CMakeFiles/protoc.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 52%] Built target headers
+/usr/bin/make -f confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/build.make confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/depend
+[ 52%] Built target protoc
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/aten/src/ATen/native/quantized/cpu/qnnpack /userdata/work/pytorch/build /userdata/work/pytorch/build/confu-deps/pytorch_qnnpack /userdata/work/pytorch/build/confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/build.make confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefdetpurecfma_scalar.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'confu-deps/pytorch_qnnpack/CMakeFiles/pytorch_qnnpack.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 55%] Built target pytorch_qnnpack
+[ 55%] Built target sleefdetpurecfma_scalar
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/depend
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefpurec_scalar.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/build.make sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefpurecfma_scalar.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 55%] Built target sleefpurec_scalar
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefadvsimd.dir/build.make sleef/src/libm/CMakeFiles/sleefadvsimd.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefadvsimd.dir/DependInfo.cmake --color=
+[ 55%] Built target sleefpurecfma_scalar
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/build.make sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefadvsimd.dir/build.make sleef/src/libm/CMakeFiles/sleefadvsimd.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefadvsimd.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 55%] Built target sleefadvsimd
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/build.make sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/build.make sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefdetadvsimd.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/build.make sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefdetadvsimdnofma.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 56%] Built target sleefdetadvsimd
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/build.make sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/DependInfo.cmake --color=
+[ 56%] Built target sleefdetadvsimdnofma
+/usr/bin/make -f caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/build.make caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2/proto /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2/proto /userdata/work/pytorch/build/caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/build.make caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/proto/CMakeFiles/Caffe2_PROTO.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/build.make sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleefadvsimdnofma.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 56%] Built target Caffe2_PROTO
+/usr/bin/make -f third_party/onnx/CMakeFiles/gen_onnx_proto.dir/build.make third_party/onnx/CMakeFiles/gen_onnx_proto.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/onnx /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/onnx /userdata/work/pytorch/build/third_party/onnx/CMakeFiles/gen_onnx_proto.dir/DependInfo.cmake --color=
+[ 56%] Built target sleefadvsimdnofma
+/usr/bin/make -f caffe2/CMakeFiles/caffe2_protos.dir/build.make caffe2/CMakeFiles/caffe2_protos.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/caffe2_protos.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/onnx/CMakeFiles/gen_onnx_proto.dir/build.make third_party/onnx/CMakeFiles/gen_onnx_proto.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/onnx/CMakeFiles/gen_onnx_proto.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/caffe2_protos.dir/build.make caffe2/CMakeFiles/caffe2_protos.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/caffe2_protos.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 56%] Built target gen_onnx_proto
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleef.dir/build.make sleef/src/libm/CMakeFiles/sleef.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/sleef/src/libm /userdata/work/pytorch/build /userdata/work/pytorch/build/sleef/src/libm /userdata/work/pytorch/build/sleef/src/libm/CMakeFiles/sleef.dir/DependInfo.cmake --color=
+[ 56%] Built target caffe2_protos
+/usr/bin/make -f third_party/onnx/CMakeFiles/onnx_proto.dir/build.make third_party/onnx/CMakeFiles/onnx_proto.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/onnx /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/onnx /userdata/work/pytorch/build/third_party/onnx/CMakeFiles/onnx_proto.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f sleef/src/libm/CMakeFiles/sleef.dir/build.make sleef/src/libm/CMakeFiles/sleef.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'sleef/src/libm/CMakeFiles/sleef.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/onnx/CMakeFiles/onnx_proto.dir/build.make third_party/onnx/CMakeFiles/onnx_proto.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/onnx/CMakeFiles/onnx_proto.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 56%] Built target sleef
+[ 56%] Built target onnx_proto
+/usr/bin/make -f third_party/onnx/CMakeFiles/onnx.dir/build.make third_party/onnx/CMakeFiles/onnx.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/third_party/onnx /userdata/work/pytorch/build /userdata/work/pytorch/build/third_party/onnx /userdata/work/pytorch/build/third_party/onnx/CMakeFiles/onnx.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f third_party/onnx/CMakeFiles/onnx.dir/build.make third_party/onnx/CMakeFiles/onnx.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'third_party/onnx/CMakeFiles/onnx.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 59%] Built target onnx
+/usr/bin/make -f caffe2/CMakeFiles/torch_cpu.dir/build.make caffe2/CMakeFiles/torch_cpu.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/torch_cpu.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/torch_cpu.dir/build.make caffe2/CMakeFiles/torch_cpu.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/torch_cpu.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 94%] Built target torch_cpu
+/usr/bin/make -f caffe2/CMakeFiles/torch.dir/build.make caffe2/CMakeFiles/torch.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/torch.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/torch.dir/build.make caffe2/CMakeFiles/torch.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/torch.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 94%] Built target torch
+/usr/bin/make -f caffe2/CMakeFiles/caffe2_pybind11_state.dir/build.make caffe2/CMakeFiles/caffe2_pybind11_state.dir/depend
+/usr/bin/make -f caffe2/torch/lib/libshm/CMakeFiles/shm.dir/build.make caffe2/torch/lib/libshm/CMakeFiles/shm.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/torch/lib/libshm /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2/torch/lib/libshm /userdata/work/pytorch/build/caffe2/torch/lib/libshm/CMakeFiles/shm.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/caffe2 /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2 /userdata/work/pytorch/build/caffe2/CMakeFiles/caffe2_pybind11_state.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/torch/lib/libshm/CMakeFiles/shm.dir/build.make caffe2/torch/lib/libshm/CMakeFiles/shm.dir/build
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/CMakeFiles/caffe2_pybind11_state.dir/build.make caffe2/CMakeFiles/caffe2_pybind11_state.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/torch/lib/libshm/CMakeFiles/shm.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/CMakeFiles/caffe2_pybind11_state.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 94%] Built target shm
+/usr/bin/make -f modules/observers/CMakeFiles/caffe2_observers.dir/build.make modules/observers/CMakeFiles/caffe2_observers.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/modules/observers /userdata/work/pytorch/build /userdata/work/pytorch/build/modules/observers /userdata/work/pytorch/build/modules/observers/CMakeFiles/caffe2_observers.dir/DependInfo.cmake --color=
+[ 94%] Built target caffe2_pybind11_state
+/usr/bin/make -f caffe2/torch/CMakeFiles/torch_python.dir/build.make caffe2/torch/CMakeFiles/torch_python.dir/depend
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f modules/observers/CMakeFiles/caffe2_observers.dir/build.make modules/observers/CMakeFiles/caffe2_observers.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'modules/observers/CMakeFiles/caffe2_observers.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 94%] Built target caffe2_observers
+/usr/bin/make -f caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/build.make caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/depend
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/torch/lib/libshm /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2/torch/lib/libshm /userdata/work/pytorch/build/caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/build.make caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/torch/lib/libshm/CMakeFiles/torch_shm_manager.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[ 95%] Built target torch_shm_manager
+make[2]: Entering directory '/userdata/work/pytorch/build'
+cd /userdata/work/pytorch/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /userdata/work/pytorch /userdata/work/pytorch/torch /userdata/work/pytorch/build /userdata/work/pytorch/build/caffe2/torch /userdata/work/pytorch/build/caffe2/torch/CMakeFiles/torch_python.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/make -f caffe2/torch/CMakeFiles/torch_python.dir/build.make caffe2/torch/CMakeFiles/torch_python.dir/build
+make[2]: Entering directory '/userdata/work/pytorch/build'
+make[2]: Nothing to be done for 'caffe2/torch/CMakeFiles/torch_python.dir/build'.
+make[2]: Leaving directory '/userdata/work/pytorch/build'
+[100%] Built target torch_python
+make[1]: Leaving directory '/userdata/work/pytorch/build'
+/usr/bin/cmake -E cmake_progress_start /userdata/work/pytorch/build/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory '/userdata/work/pytorch/build'
+make[1]: Nothing to be done for 'preinstall'.
+make[1]: Leaving directory '/userdata/work/pytorch/build'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+Building wheel torch-1.5.0a0+4ff3872
+-- Building version 1.5.0a0+4ff3872
+cmake --build . --target install --config Release -- -j 2
+running install
+running build
+running build_py
+copying torch/version.py -> build/lib.linux-aarch64-3.6/torch
+copying caffe2/proto/torch_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/metanet_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/caffe2_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/hsm_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/caffe2_legacy_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/predictor_consts_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/prof_dag_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+running build_ext
+-- NumPy not found
+-- Not using cuDNN
+-- Not using CUDA
+-- Not using MKLDNN
+-- Not using NCCL
+-- Building without distributed package
+
+Copying extension caffe2.python.caffe2_pybind11_state
+Copying caffe2.python.caffe2_pybind11_state from torch/lib/python3/dist-packages/caffe2/python/caffe2_pybind11_state.cpython-36m-aarch64-linux-gnu.so to /userdata/work/pytorch/build/lib.linux-aarch64-3.6/caffe2/python/caffe2_pybind11_state.cpython-36m-aarch64-linux-gnu.so
+running install_lib
+copying build/lib.linux-aarch64-3.6/caffe2/proto/torch_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/metanet_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/caffe2_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/hsm_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/caffe2_legacy_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/predictor_consts_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/prof_dag_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/torch/version.py -> /usr/local/lib/python3.6/dist-packages/torch
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/torch_pb2.py to torch_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/metanet_pb2.py to metanet_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/caffe2_pb2.py to caffe2_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/hsm_pb2.py to hsm_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/caffe2_legacy_pb2.py to caffe2_legacy_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/predictor_consts_pb2.py to predictor_consts_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/prof_dag_pb2.py to prof_dag_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/torch/version.py to version.cpython-36.pyc
+running install_egg_info
+running egg_info
+writing torch.egg-info/PKG-INFO
+writing dependency_links to torch.egg-info/dependency_links.txt
+writing entry points to torch.egg-info/entry_points.txt
+writing requirements to torch.egg-info/requires.txt
+writing top-level names to torch.egg-info/top_level.txt
+reading manifest file 'torch.egg-info/SOURCES.txt'
+writing manifest file 'torch.egg-info/SOURCES.txt'
+removing '/usr/local/lib/python3.6/dist-packages/torch-1.5.0a0+4ff3872.egg-info' (and everything under it)
+Copying torch.egg-info to /usr/local/lib/python3.6/dist-packages/torch-1.5.0a0+4ff3872.egg-info
+running install_scripts
+Installing convert-caffe2-to-onnx script to /usr/local/bin
+Installing convert-onnx-to-caffe2 script to /usr/local/bin

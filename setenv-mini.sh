@@ -1,0 +1,79 @@
+export NO_CUDA=1
+export NO_DISTRIBUTED=1
+export NO_MKLDNN=1
+export NO_NNPACK=1
+export NO_QNNPACK=1
+export NO_XNNPACK=1
+export NO_TEST=1
+
+export USE_CUDA=OFF
+export USE_DISTRIBUTED=OFF
+export USE_MKLDNN=OFF
+export USE_NNPACK=OFF
+export USE_QNNPACK=OFF
+export USE_XNNPACK=OFF
+export USE_CUDNN=0
+export USE_FBGEMM=0 
+export USE_NUMPY=0 
+export BUILD_TEST=0 
+export USE_MKLDNN=0 
+export USE_NNPACK=0 
+export USE_QNNPACK=0 
+export USE_DISTRIBUTED=0 
+export USE_SYSTEM_NCCL=0 
+export BUILD_CAFFE2_OPS=0 
+export USE_OPENMP=0 
+export USE_QNNPACK=OFF		
+export USE_XNNPACK=OFF 
+export USE_NUMA=OFF 
+export USE_MPI=OFF  
+export USE_CUDA=OFF 
+export USE_NNPACK=OFF 
+export USE_NCCL=OFF 
+
+export USE_STATIC_DISPATCH=ON 
+export BUILD_CUSTOM_PROTOBUF=OFF 
+export BUILD_SHARED_LIBS=OFF 
+export USE_ROCM=OFF 
+export USE_CUDA=OFF
+export USE_GFLAGS=OFF 
+export USE_OPENCV=OFF 
+export USE_LMDB=OFF 
+export USE_LEVELDB=OFF 
+export USE_MPI=OFF 
+export USE_OPENMP=OFF 
+export CMAKE_VERBOSE_MAKEFILE=1 
+export BUILD_TEST=OFF 
+export BUILD_BINARY=OFF 
+export BUILD_LIBM=ON 
+
+export MAX_JOBS=2
+
+if [ 0 == 1 ]; then
+export CMAKE_CROSSCOMPILING=TRUE 
+export BUILD_MOBILE_BENCHMARK=0 
+export BUILD_MOBILE_TEST=0 
+export BUILDING_WITH_TORCH_LIBS=ON 
+export CMAKE_BUILD_TYPE=Release 
+export BUILD_CAFFE2=0 
+export BUILD_ATEN=ON 
+export BUILD_BINARY=OFF 
+export BUILD_SHARED_LIBS=ON 
+export ONNX_NAMESPACE=onnx_torch 
+export USE_CUDA=0 
+export CAFFE2_STATIC_LINK_CUDA= 
+export USE_ROCM=0 
+export USE_NNPACK=1 
+export CUDNN_INCLUDE_DIR= 
+export CUDNN_LIB_DIR= 
+export CUDNN_LIBRARY= 
+export USE_MKLDNN=0 
+export MKLDNN_INCLUDE_DIR= 
+export MKLDNN_LIB_DIR= 
+export MKLDNN_LIBRARY= 
+export CMAKE_EXPORT_COMPILE_COMMANDS=1 
+export CAFFE2_CUSTOM_PROTOC_EXECUTABLE=protoc 
+
+fi
+date -s 2020-08-18
+date -s 17:10:10

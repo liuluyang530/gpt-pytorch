@@ -1,0 +1,249 @@
+[  2%] Built target libprotobuf
+[  5%] Built target libprotoc
+[  5%] Built target protoc
+[  6%] Built target libprotobuf-lite
+[  6%] Built target clog
+[  7%] Built target cpuinfo_internals
+[  7%] Built target cpuinfo
+[  9%] Built target pytorch_qnnpack
+[  9%] Built target pthreadpool
+[ 32%] Built target XNNPACK
+[ 32%] Built target gtest
+[ 32%] Built target gmock
+[ 32%] Built target gmock_main
+[ 32%] Built target gtest_main
+[ 32%] Built target benchmark
+[ 32%] Built target benchmark_main
+[ 34%] Built target c10
+[ 34%] Built target c10_typeid_test
+[ 34%] Built target c10_tempfile_test
+[ 34%] Built target c10_string_view_test
+[ 34%] Built target c10_registry_test
+[ 34%] Built target c10_logging_test
+[ 34%] Built target c10_intrusive_ptr_test
+[ 34%] Built target c10_flags_test
+[ 34%] Built target c10_InlineStreamGuard_test
+[ 34%] Built target c10_ordered_preserving_dict_test
+[ 34%] Built target c10_ConstexprCrc_test
+[ 35%] Built target c10_bfloat16_test
+[ 35%] Built target c10_exception_test
+[ 35%] Built target c10_InlineDeviceGuard_test
+[ 35%] Built target c10_either_test
+[ 35%] Built target c10_StreamGuard_test
+[ 35%] Built target c10_DeviceGuard_test
+[ 35%] Built target c10_DispatchKeySet_test
+[ 35%] Built target c10_C++17_test
+[ 35%] Built target c10_Half_test
+[ 35%] Built target c10_LeftRight_test
+[ 35%] Built target c10_Array_test
+[ 35%] Built target c10_Metaprogramming_test
+[ 35%] Built target c10_TypeIndex_test
+[ 35%] Built target c10_TypeList_test
+[ 35%] Built target c10_TypeTraits_test
+[ 35%] Built target c10_intrusive_ptr_benchmark
+[ 54%] Built target python_copy_files
+[ 54%] Built target Caffe2_PROTO
+[ 54%] Built target gen_onnx_proto
+[ 54%] Built target onnx_proto
+[ 55%] Built target onnx
+[ 56%] Built target foxi_loader
+[ 56%] Built target ATEN_CPU_FILES_GEN_TARGET
+[ 56%] Built target __aten_op_header_gen
+[ 56%] Built target caffe2_protos
+[ 56%] Built target common
+[ 56%] Built target mkrename
+[ 56%] Built target renamePURECFMA_SCALAR.h_generated
+[ 56%] Built target sleefdetpurecfma_scalar
+[ 56%] Built target renamePUREC_SCALAR.h_generated
+[ 56%] Built target sleefpurec_scalar
+[ 56%] Built target sleefpurecfma_scalar
+[ 56%] Built target mkalias
+[ 56%] Built target alias_advsimd.h_generated
+[ 56%] Built target renameADVSIMD.h_generated
+[ 56%] Built target sleefadvsimd
+[ 56%] Built target sleefdetadvsimd
+[ 56%] Built target renameADVSIMDNOFMA.h_generated
+[ 56%] Built target sleefdetadvsimdnofma
+[ 56%] Built target sleefdetpurec_scalar
+[ 56%] Built target sleefadvsimdnofma
+[ 57%] Built target sleef
+[ 85%] Built target torch_cpu
+[ 85%] Built target torch
+[ 85%] Built target pattern_net_transform_test
+[ 85%] Built target common_subexpression_elimination_test
+[ 85%] Built target depthwise3x3_conv_op_test
+[ 85%] Built target device_test
+[ 85%] Built target dead_code_elim_test
+[ 85%] Built target distributed_test
+[ 86%] Built target converter_nomigraph_test
+[ 86%] Built target string_ops_test
+[ 86%] Built target half_float_ops_test
+[ 86%] Built target generate_proposals_op_util_boxes_test
+[ 86%] Built target generate_proposals_op_test
+[ 86%] Built target elementwise_op_test
+[ 86%] Built target boolean_unmask_ops_test
+[ 86%] Built target batch_matmul_op_test
+[ 86%] Built target time_observer_test
+[ 86%] Built target TopoSortTest
+[ 86%] Built target TarjansImplTest
+[ 86%] Built target utility_ops_test
+[ 86%] Built target MatchTest
+[ 86%] Built target GraphTest
+[ 86%] Built target AlgorithmsTest
+[ 86%] Built target data_filler_test
+[ 86%] Built target cast_test
+[ 86%] Built target cpuid_test
+[ 86%] Built target proto_utils_test
+[ 86%] Built target simple_queue_test
+[ 86%] Built target extension_backend_test
+[ 86%] Built target quantized_test
+[ 86%] Built target verify_api_visibility
+[ 86%] Built target variant_test
+[ 86%] Built target cpu_generator_test
+[ 86%] Built target operator_test
+[ 86%] Built target op_registration_test
+[ 86%] Built target timer_test
+[ 86%] Built target wrapdim_test
+[ 86%] Built target tensor_interop_test
+[ 86%] Built target native_test
+[ 86%] Built target kernel_function_test
+[ 86%] Built target Dict_test
+[ 86%] Built target Dimname_test
+[ 86%] Built target test_parallel
+[ 86%] Built target kernel_stackbased_test
+[ 86%] Built target basic
+[ 86%] Built target half_test
+[ 87%] Built target backend_fallback_test
+[ 87%] Built target NeuralNetTest
+[ 87%] Built target math_test
+[ 87%] Built target caffe2_pybind11_state
+[ 87%] Built target ssa_test
+[ 87%] Built target atest
+[ 87%] Built target conv_transpose_op_mobile_test
+[ 87%] Built target predictor_test
+[ 87%] Built target transform_test
+[ 87%] Built target kernel_lambda_test
+[ 87%] Built target scalar_tensor_test
+[ 87%] Built target net_test
+[ 87%] Built target observer_test
+[ 87%] Built target operator_schema_test
+[ 87%] Built target backend_cutting_test
+[ 88%] Built target xla_tensor_test
+[ 88%] Built target apply_utils_test
+[ 88%] Built target dlconvertor_test
+[ 88%] Built target kernel_lambda_legacy_test
+[ 88%] Built target weakref_test
+[ 89%] Built target NamedTensor_test
+[ 89%] Built target bound_shape_inference_test
+[ 89%] Built target thread_init_test
+[ 89%] Built target inline_container_test
+[ 89%] Built target broadcast_test
+[ 89%] Built target tensor_iterator_test
+[ 89%] Built target scalar_test
+[ 90%] Built target torch_global_deps
+[ 90%] Built target generate_proposals_op_util_nms_test
+[ 90%] Built target memory_overlapping_test
+[ 90%] Built target mobile_test
+[ 90%] Built target undefined_tensor_test
+[ 90%] Built target workspace_test
+[ 90%] Built target pow_test
+[ 90%] Built target reduce_ops_test
+[ 90%] Built target memory_format_test
+[ 90%] Built target cpu_rng_test
+[ 90%] Built target List_test
+[ 90%] Built target TensorImpl_test
+[ 90%] Built target smart_tensor_printer_test
+[ 90%] Built target fixed_divisor_test
+[ 90%] Built target conv_to_nnpack_transform_test
+[ 90%] Built target kernel_function_legacy_test
+[ 90%] Built target common_test
+[ 90%] Built target net_simple_refcount_test
+[ 90%] Built target text_file_reader_utils_test
+[ 90%] Built target kernel_functor_test
+[ 90%] Built target BinaryMatchImplTest
+[ 90%] Built target blob_test
+[ 90%] Built target net_dag_utils_test
+[ 90%] Built target context_test
+[ 90%] Built target event_test
+[ 90%] Built target init_test
+[ 90%] Built target graph_test
+[ 90%] Built target SubgraphMatcherTest
+[ 90%] Built target module_test
+[ 91%] Built target net_async_tracing_test
+[ 91%] Built target parallel_net_test
+[ 92%] Built target stats_test
+[ 92%] Built target KernelFunction_test
+[ 92%] Built target fatal_signal_asan_no_sig_test
+[ 92%] Built target mkrename_gnuabi
+[ 93%] Built target headers
+[ 93%] Built target mkmasked_gnuabi
+[ 93%] Built target mkdisp
+[ 93%] Built target arraymap
+[ 94%] Built target test_jit
+[ 94%] Built target test_tensorexpr
+[ 95%] Built target test_api
+[ 95%] Built target shm
+[ 95%] Built target generate-torch-sources
+[ 95%] Built target torch_python_stubs
+[ 98%] Built target torch_python
+[ 98%] Built target torch_shm_manager
+[100%] Built target caffe2_detectron_ops
+[100%] Built target caffe2_module_test_dynamic
+[100%] Built target caffe2_observers
+Install the project...
+-- Install configuration: "Release"
+Building wheel torch-1.5.0a0+4ff3872
+-- Building version 1.5.0a0+4ff3872
+cmake --build . --target install --config Release -- -j 1
+running install
+running build
+running build_py
+copying torch/version.py -> build/lib.linux-aarch64-3.6/torch
+copying caffe2/proto/torch_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/metanet_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/caffe2_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/hsm_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/caffe2_legacy_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/predictor_consts_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+copying caffe2/proto/prof_dag_pb2.py -> build/lib.linux-aarch64-3.6/caffe2/proto
+running build_ext
+-- NumPy not found
+-- Not using cuDNN
+-- Not using CUDA
+-- Not using MKLDNN
+-- Not using NCCL
+-- Building without distributed package
+
+Copying extension caffe2.python.caffe2_pybind11_state
+Copying caffe2.python.caffe2_pybind11_state from torch/lib/python3/dist-packages/caffe2/python/caffe2_pybind11_state.cpython-36m-aarch64-linux-gnu.so to /userdata/work/pytorch/build/lib.linux-aarch64-3.6/caffe2/python/caffe2_pybind11_state.cpython-36m-aarch64-linux-gnu.so
+running install_lib
+copying build/lib.linux-aarch64-3.6/caffe2/proto/torch_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/metanet_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/caffe2_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/hsm_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/caffe2_legacy_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/predictor_consts_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/caffe2/proto/prof_dag_pb2.py -> /usr/local/lib/python3.6/dist-packages/caffe2/proto
+copying build/lib.linux-aarch64-3.6/torch/version.py -> /usr/local/lib/python3.6/dist-packages/torch
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/torch_pb2.py to torch_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/metanet_pb2.py to metanet_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/caffe2_pb2.py to caffe2_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/hsm_pb2.py to hsm_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/caffe2_legacy_pb2.py to caffe2_legacy_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/predictor_consts_pb2.py to predictor_consts_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/caffe2/proto/prof_dag_pb2.py to prof_dag_pb2.cpython-36.pyc
+byte-compiling /usr/local/lib/python3.6/dist-packages/torch/version.py to version.cpython-36.pyc
+running install_egg_info
+running egg_info
+writing torch.egg-info/PKG-INFO
+writing dependency_links to torch.egg-info/dependency_links.txt
+writing entry points to torch.egg-info/entry_points.txt
+writing requirements to torch.egg-info/requires.txt
+writing top-level names to torch.egg-info/top_level.txt
+reading manifest file 'torch.egg-info/SOURCES.txt'
+writing manifest file 'torch.egg-info/SOURCES.txt'
+removing '/usr/local/lib/python3.6/dist-packages/torch-1.5.0a0+4ff3872.egg-info' (and everything under it)
+Copying torch.egg-info to /usr/local/lib/python3.6/dist-packages/torch-1.5.0a0+4ff3872.egg-info
+running install_scripts
+Installing convert-caffe2-to-onnx script to /usr/local/bin
+Installing convert-onnx-to-caffe2 script to /usr/local/bin

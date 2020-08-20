@@ -1,0 +1,16 @@
+export NO_CUDA=1
+export NO_DISTRIBUTED=1
+export NO_MKLDNN=1
+export NO_NNPACK=1
+export NO_QNNPACK=1
+export NO_XNNPACK=1
+export NO_TEST=1
+
+export USE_CUDA=OFF
+export USE_DISTRIBUTED=OFF
+export USE_MKLDNN=OFF
+export USE_NNPACK=OFF
+export USE_QNNPACK=OFF
+export USE_XNNPACK=OFF
+
+export MAX_JOBS=1
